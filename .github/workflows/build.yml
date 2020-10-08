@@ -11,6 +11,17 @@ on:
       - '*'
     tags:
       - '*'
+    paths-ignore:
+      - '*.md'
+      - '.github/*.md'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/*/*/**'
+      - 'C*'
+      - 'contrib/**'
+      - 'docs/**'
+      - 'rclone.*'
+      - 'MANUAL.*'
+      # - 'VERSION'
   pull_request:
 
 jobs:
