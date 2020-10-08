@@ -1,0 +1,18 @@
+# sha-1
+"[0-9a-f]{40}"
+# ?
+"[0-9a-f]{64}"
+# ?
+"[0-9a-f]{128}"
+# hex digits including css/html color classes:
+(?:[\\0][xX]|\\u|[uU]\+|#|\%23)[0-9a-fA-FgGrR]{2,}[uU]?[lL]{0,2}\b
+# URL escaped characters
+\%[0-9A-F]{2}
+# secrets
+Secret = "\S+"
+"public_key": "\S+"
+"bitcoin:[^"]+"
+# tests
+(?:in|out):\s*"[^"]*"
+# ignore long runs of a single character:
+\b([A-Za-z])\1{3,}\b

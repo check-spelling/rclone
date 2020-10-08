@@ -2,6 +2,12 @@
 \.png$
 ignore$
 ^\.github/actions/spelling/
+^MANUAL\.
+^backend/crypt/cipher_test\.go$
+^backend/onedrive/quickxorhash/quickxorhash_test\.go$
+^docs/static/
+^go\.(?:mod|sum)$
 ^graphics/
+^rclone\.1$
 /test/files/
 /testdata/
