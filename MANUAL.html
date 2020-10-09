@@ -1514,7 +1514,7 @@ umount /path/to/local/mount</code></pre>
 <p>If an upload fails it will be retried at exponentially increasing intervals up to 1 minute.</p>
 <h3 id="vfs-cache-mode-full">--vfs-cache-mode full</h3>
 <p>In this mode all reads and writes are buffered to and from disk. When data is read from the remote this is buffered to disk as well.</p>
-<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has dowloaded.</p>
+<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has downloaded.</p>
 <p>So if an application only reads the starts of each file, then rclone will only buffer the start of the file. These files will appear to be their full size in the cache, but they will be sparse files with only the data that has been downloaded present in them.</p>
 <p>This mode should support all normal file system operations and is otherwise identical to --vfs-cache-mode writes.</p>
 <p>When reading a file rclone will read --buffer-size plus --vfs-read-ahead bytes ahead. The --buffer-size is buffered in memory whereas the --vfs-read-ahead is buffered on disk.</p>
@@ -1828,7 +1828,7 @@ ffmpeg - | rclone rcat remote:path/to/file</code></pre>
 <p>If an upload fails it will be retried at exponentially increasing intervals up to 1 minute.</p>
 <h3 id="vfs-cache-mode-full-1">--vfs-cache-mode full</h3>
 <p>In this mode all reads and writes are buffered to and from disk. When data is read from the remote this is buffered to disk as well.</p>
-<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has dowloaded.</p>
+<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has downloaded.</p>
 <p>So if an application only reads the starts of each file, then rclone will only buffer the start of the file. These files will appear to be their full size in the cache, but they will be sparse files with only the data that has been downloaded present in them.</p>
 <p>This mode should support all normal file system operations and is otherwise identical to --vfs-cache-mode writes.</p>
 <p>When reading a file rclone will read --buffer-size plus --vfs-read-ahead bytes ahead. The --buffer-size is buffered in memory whereas the --vfs-read-ahead is buffered on disk.</p>
@@ -1959,7 +1959,7 @@ ffmpeg - | rclone rcat remote:path/to/file</code></pre>
 <p>If an upload fails it will be retried at exponentially increasing intervals up to 1 minute.</p>
 <h3 id="vfs-cache-mode-full-2">--vfs-cache-mode full</h3>
 <p>In this mode all reads and writes are buffered to and from disk. When data is read from the remote this is buffered to disk as well.</p>
-<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has dowloaded.</p>
+<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has downloaded.</p>
 <p>So if an application only reads the starts of each file, then rclone will only buffer the start of the file. These files will appear to be their full size in the cache, but they will be sparse files with only the data that has been downloaded present in them.</p>
 <p>This mode should support all normal file system operations and is otherwise identical to --vfs-cache-mode writes.</p>
 <p>When reading a file rclone will read --buffer-size plus --vfs-read-ahead bytes ahead. The --buffer-size is buffered in memory whereas the --vfs-read-ahead is buffered on disk.</p>
@@ -2218,7 +2218,7 @@ htpasswd -B htpasswd anotherUser</code></pre>
 <p>If an upload fails it will be retried at exponentially increasing intervals up to 1 minute.</p>
 <h3 id="vfs-cache-mode-full-3">--vfs-cache-mode full</h3>
 <p>In this mode all reads and writes are buffered to and from disk. When data is read from the remote this is buffered to disk as well.</p>
-<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has dowloaded.</p>
+<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has downloaded.</p>
 <p>So if an application only reads the starts of each file, then rclone will only buffer the start of the file. These files will appear to be their full size in the cache, but they will be sparse files with only the data that has been downloaded present in them.</p>
 <p>This mode should support all normal file system operations and is otherwise identical to --vfs-cache-mode writes.</p>
 <p>When reading a file rclone will read --buffer-size plus --vfs-read-ahead bytes ahead. The --buffer-size is buffered in memory whereas the --vfs-read-ahead is buffered on disk.</p>
@@ -2525,7 +2525,7 @@ htpasswd -B htpasswd anotherUser</code></pre>
 <p>If an upload fails it will be retried at exponentially increasing intervals up to 1 minute.</p>
 <h3 id="vfs-cache-mode-full-4">--vfs-cache-mode full</h3>
 <p>In this mode all reads and writes are buffered to and from disk. When data is read from the remote this is buffered to disk as well.</p>
-<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has dowloaded.</p>
+<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has downloaded.</p>
 <p>So if an application only reads the starts of each file, then rclone will only buffer the start of the file. These files will appear to be their full size in the cache, but they will be sparse files with only the data that has been downloaded present in them.</p>
 <p>This mode should support all normal file system operations and is otherwise identical to --vfs-cache-mode writes.</p>
 <p>When reading a file rclone will read --buffer-size plus --vfs-read-ahead bytes ahead. The --buffer-size is buffered in memory whereas the --vfs-read-ahead is buffered on disk.</p>
@@ -2787,7 +2787,7 @@ htpasswd -B htpasswd anotherUser</code></pre>
 <p>If an upload fails it will be retried at exponentially increasing intervals up to 1 minute.</p>
 <h3 id="vfs-cache-mode-full-5">--vfs-cache-mode full</h3>
 <p>In this mode all reads and writes are buffered to and from disk. When data is read from the remote this is buffered to disk as well.</p>
-<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has dowloaded.</p>
+<p>In this mode the files in the cache will be sparse files and rclone will keep track of which bits of the files it has downloaded.</p>
 <p>So if an application only reads the starts of each file, then rclone will only buffer the start of the file. These files will appear to be their full size in the cache, but they will be sparse files with only the data that has been downloaded present in them.</p>
 <p>This mode should support all normal file system operations and is otherwise identical to --vfs-cache-mode writes.</p>
 <p>When reading a file rclone will read --buffer-size plus --vfs-read-ahead bytes ahead. The --buffer-size is buffered in memory whereas the --vfs-read-ahead is buffered on disk.</p>

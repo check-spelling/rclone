@@ -1245,15 +1245,15 @@ func (o *Object) Open(ctx context.Context, options ...fs.OpenOption) (in io.Read
 	}
 	blob := o.getBlobReference()
 	ac := azblob.BlobAccessConditions{}
-	var dowloadResponse *azblob.DownloadResponse
+	var downloadResponse *azblob.DownloadResponse
 	err = o.fs.pacer.Call(func() (bool, error) {
-		dowloadResponse, err = blob.Download(ctx, offset, count, ac, false)
+		downloadResponse, err = blob.Download(ctx, offset, count, ac, false)
 		return o.fs.shouldRetry(err)
 	})
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to open for download")
 	}
-	in = dowloadResponse.Body(azblob.RetryReaderOptions{})
+	in = downloadResponse.Body(azblob.RetryReaderOptions{})
 	return in, nil
 }
 

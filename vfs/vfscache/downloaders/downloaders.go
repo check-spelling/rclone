@@ -298,7 +298,7 @@ func (dls *Downloaders) _ensureDownloader(r ranges.Range) (err error) {
 	r = dls.item.FindMissing(r)
 
 	// If the range is entirely present then we only need to start a
-	// dowloader if the window isn't full.
+	// downloader if the window isn't full.
 	startNew := true
 	if r.IsEmpty() {
 		// Make a new range which includes the window
