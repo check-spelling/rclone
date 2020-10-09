@@ -2500,7 +2500,7 @@ func (f *Fs) Command(ctx context.Context, name string, arg []string, opt map[str
 // listMultipartUploads lists all outstanding multipart uploads for (bucket, key)
 //
 // Note that rather lazily we treat key as a prefix so it matches
-// directories and objects. This could suprise the user if they ask
+// directories and objects. This could surprise the user if they ask
 // for "dir" and it returns "dirKey"
 func (f *Fs) listMultipartUploads(ctx context.Context, bucket, key string) (uploads []*s3.MultipartUpload, err error) {
 	var (
