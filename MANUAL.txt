@@ -13115,7 +13115,7 @@ Choose this option to the configure Storage to Minio  "Minio" Provider>4
 [snip] 32 / Toronto Flex  "tor01-flex" location_constraint>1
 
 
-    9. Specify a canned ACL. IBM Cloud (Strorage) supports "public-read" and "private". IBM Cloud(Infra) supports all the canned ACLs. On-Premise COS supports all the canned ACLs.
+    9. Specify a canned ACL. IBM Cloud (Storage) supports "public-read" and "private". IBM Cloud(Infra) supports all the canned ACLs. On-Premise COS supports all the canned ACLs.
 
 Canned ACL used when creating buckets and/or storing objects in S3. For
 more info visit
