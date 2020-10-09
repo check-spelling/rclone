@@ -60,7 +60,7 @@ func init() {
 // Options defines the configuration for this backend
 type Options struct {
 	Upstreams    fs.SpaceSepList `config:"upstreams"`
-	Remotes      fs.SpaceSepList `config:"remotes"` // Depreated
+	Remotes      fs.SpaceSepList `config:"remotes"` // Deprecated
 	ActionPolicy string          `config:"action_policy"`
 	CreatePolicy string          `config:"create_policy"`
 	SearchPolicy string          `config:"search_policy"`
