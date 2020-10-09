@@ -25281,7 +25281,7 @@ v1.51.0 - 2020-02-01
     -   dedupe: Add missing modes to help string (Nick Craig-Wood)
     -   operations
         -   Fix dedupe continuing on errors like
-            insufficientFilePermisson (SezalAgrawal)
+            insufficientFilePersimmon (SezalAgrawal)
         -   Clear accounting before low level retry (Maciej Zimnoch)
         -   Write debug message when hashes could not be checked (Ole
             Schütt)

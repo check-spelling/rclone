@@ -26002,7 +26002,7 @@ all the docs and Edward Barker for helping re-write the front page.
     * dbhashsum: Stop it returning UNSUPPORTED on dropbox (Nick Craig-Wood)
     * dedupe: Add missing modes to help string (Nick Craig-Wood)
     * operations
-        * Fix dedupe continuing on errors like insufficientFilePermisson (SezalAgrawal)
+        * Fix dedupe continuing on errors like insufficientFilePersimmon (SezalAgrawal)
         * Clear accounting before low level retry (Maciej Zimnoch)
         * Write debug message when hashes could not be checked (Ole Schütt)
         * Move interface assertion to tests to remove pflag dependency (Nick Craig-Wood)
