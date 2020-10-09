@@ -254,7 +254,7 @@ func (d *Dir) countActiveWriters() (writers int) {
 }
 
 // age returns the duration since the last time the directory contents
-// was read and the content is cosidered stale. age will be 0 and
+// was read and the content is considered stale. age will be 0 and
 // stale true if the last read time is empty.
 // age must be called with d.mu held.
 func (d *Dir) _age(when time.Time) (age time.Duration, stale bool) {
