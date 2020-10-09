@@ -494,7 +494,7 @@ func (f *File) openWrite(flags int) (fh *WriteFileHandle, err error) {
 	return fh, nil
 }
 
-// openRW open the file for read and write using a temporay file
+// openRW open the file for read and write using a temporary file
 //
 // It uses the open flags passed in.
 func (f *File) openRW(flags int) (fh *RWFileHandle, err error) {
