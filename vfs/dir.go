@@ -528,7 +528,7 @@ func (d *Dir) stat(leaf string) (Node, error) {
 					// duplicate case insensitive match is an error
 					return nil, errors.Errorf("duplicate filename %q detected with --vfs-case-insensitive set", leaf)
 				}
-				// found a case insenstive match
+				// found a case insensitive match
 				ok = true
 				item = node
 			}
