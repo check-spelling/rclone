@@ -3033,7 +3033,7 @@ func (o *Object) Update(ctx context.Context, in io.Reader, src fs.ObjectInfo, op
 	}
 
 	// read the md5sum if available
-	// - for non multpart
+	// - for non multipart
 	//    - so we can add a ContentMD5
 	// - for multipart provided checksums aren't disabled
 	//    - so we can add the md5sum in the metadata as metaMD5Hash

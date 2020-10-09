@@ -14492,7 +14492,7 @@ y/e/d&gt; y</code></pre>
 <h4 id="qingstor-upload-concurrency">--qingstor-upload-concurrency</h4>
 <p>Concurrency for multipart uploads.</p>
 <p>This is the number of chunks of the same file that are uploaded concurrently.</p>
-<p>NB if you set this to &gt; 1 then the checksums of multpart uploads become corrupted (the uploads themselves are not corrupted though).</p>
+<p>NB if you set this to &gt; 1 then the checksums of multipart uploads become corrupted (the uploads themselves are not corrupted though).</p>
 <p>If you are uploading small numbers of large file over high speed link and these uploads do not fully utilize your bandwidth, then increasing this may help to speed up the transfers.</p>
 <ul>
 <li>Config: upload_concurrency</li>

@@ -1475,7 +1475,7 @@ func (o *Object) Update(ctx context.Context, in io.Reader, src fs.ObjectInfo, op
 	}
 	// FIXME Until https://github.com/Azure/azure-storage-blob-go/pull/75
 	// is merged the SDK can't upload a single blob of exactly the chunk
-	// size, so upload with a multpart upload to work around.
+	// size, so upload with a multipart upload to work around.
 	// See: https://github.com/rclone/rclone/issues/2653
 	multipartUpload := size < 0 || size >= int64(o.fs.opt.UploadCutoff)
 	if size == int64(o.fs.opt.ChunkSize) {
