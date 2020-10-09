@@ -461,7 +461,7 @@ func (c *Cache) removeNotInUse(item *Item, maxAge time.Duration, emptyOnly bool)
 
 // Retry failed resets during purgeClean()
 func (c *Cache) retryFailedResets() {
-	// Some items may have failed to reset becasue there was not enough space
+	// Some items may have failed to reset because there was not enough space
 	// for saving the cache item's metadata.  Redo the Reset()'s here now that
 	// we may have some available space.
 	if len(c.errItems) != 0 {
