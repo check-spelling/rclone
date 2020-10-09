@@ -69,7 +69,7 @@ type Cache struct {
 // go into the directory tree.
 type AddVirtualFn func(remote string, size int64, isDir bool) error
 
-// New creates a new cache heirachy for fremote
+// New creates a new cache hierarchy for fremote
 //
 // This starts background goroutines which can be cancelled with the
 // context passed in.
