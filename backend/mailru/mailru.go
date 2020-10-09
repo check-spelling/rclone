@@ -2214,7 +2214,7 @@ func (e *endHandler) handle(err error) error {
 	return io.EOF
 }
 
-// serverPool backs server dispacher
+// serverPool backs server dispatcher
 type serverPool struct {
 	pool      pendingServerMap
 	mu        sync.Mutex
