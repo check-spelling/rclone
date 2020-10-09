@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	maxUploadDelay = 5 * time.Minute // max delay betwen upload attempts
+	maxUploadDelay = 5 * time.Minute // max delay between upload attempts
 )
 
 // PutFn is the interface that item provides to store the data
