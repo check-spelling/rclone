@@ -172,7 +172,7 @@ description: "Rclone Changelog"
 * Google Cloud Storage
     * Add support for anonymous access (Kai Lüke)
 * Jottacloud
-    * Bring back legacy authentification for use with whitelabel versions (buengese)
+    * Bring back legacy authentication for use with whitelabel versions (buengese)
     * Switch to new api root - also implement a very ugly workaround for the DirMove failures (buengese)
 * Onedrive
     * Rework cancel of multipart uploads on rclone exit (Nick Craig-Wood)
