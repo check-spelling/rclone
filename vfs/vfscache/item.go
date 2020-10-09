@@ -246,7 +246,7 @@ func (item *Item) _truncate(size int64) (err error) {
 	// Use open handle if available
 	fd := item.fd
 	if fd == nil {
-		// If the metadata says we have some blockes cached then the
+		// If the metadata says we have some blocks cached then the
 		// file should exist, so open without O_CREATE
 		oFlags := os.O_WRONLY
 		if item.info.Rs.Size() == 0 {
