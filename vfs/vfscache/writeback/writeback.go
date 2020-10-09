@@ -32,7 +32,7 @@ type WriteBack struct {
 	lookup  map[Handle]*writeBackItem // for getting a *writeBackItem from a Handle - writeBackItems are in here until cancelled
 	opt     *vfscommon.Options        // VFS options
 	timer   *time.Timer               // next scheduled time for the uploader
-	expiry  time.Time                 // time the next item exires or IsZero
+	expiry  time.Time                 // time the next item expires or IsZero
 	uploads int                       // number of uploads in progress
 
 	// read and written with atomic
