@@ -322,7 +322,7 @@ all the docs and Edward Barker for helping re-write the front page.
     * Add `--header` flag to add HTTP headers to every HTTP transaction (Nick Craig-Wood)
     * Add `--check-first` to do all checking before starting transfers (Nick Craig-Wood)
     * Add `--track-renames-strategy` for configurable matching criteria for `--track-renames` (Bernd Schoolmann)
-    * Add `--cutoff-mode` hard,soft,catious (Shing Kit Chan & Franklyn Tackitt)
+    * Add `--cutoff-mode` hard,soft,cautious (Shing Kit Chan & Franklyn Tackitt)
     * Filter flags (eg `--files-from -`) can read from stdin (fishbullet)
     * Add `--error-on-no-transfer` option (Jon Fautley)
     * Implement `--order-by xxx,mixed` for copying some small and some big files (Nick Craig-Wood)

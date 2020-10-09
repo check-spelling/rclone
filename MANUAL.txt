@@ -24874,7 +24874,7 @@ See commits
         (Nick Craig-Wood)
     -   Add --track-renames-strategy for configurable matching criteria
         for --track-renames (Bernd Schoolmann)
-    -   Add --cutoff-mode hard,soft,catious (Shing Kit Chan & Franklyn
+    -   Add --cutoff-mode hard,soft,cautious (Shing Kit Chan & Franklyn
         Tackitt)
     -   Filter flags (eg --files-from -) can read from stdin
         (fishbullet)
