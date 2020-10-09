@@ -669,7 +669,7 @@ all the docs and Edward Barker for helping re-write the front page.
 * S3
     * Re-implement multipart upload to fix memory issues (Nick Craig-Wood)
     * Add `--s3-copy-cutoff` for size to switch to multipart copy (Nick Craig-Wood)
-    * Add new region Asia Patific (Hong Kong) (Outvi V)
+    * Add new region Asia Pacific (Hong Kong) (Outvi V)
     * Reduce memory usage streaming files by reducing max stream upload size (Nick Craig-Wood)
     * Add `--s3-list-chunk` option for bucket listing (Thomas Kriechbaumer)
     * Force path style bucket access to off for AWS deprecation (Nick Craig-Wood)

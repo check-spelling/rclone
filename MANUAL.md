@@ -11595,7 +11595,7 @@ Choose a number from below, or type in your own value
    / Asia Pacific (Mumbai)
 13 | Needs location constraint ap-south-1.
    \ "ap-south-1"
-   / Asia Patific (Hong Kong) Region
+   / Asia Pacific (Hong Kong) Region
 14 | Needs location constraint ap-east-1.
    \ "ap-east-1"
    / South America (Sao Paulo) Region
@@ -12036,7 +12036,7 @@ Region to connect to.
         - Asia Pacific (Mumbai)
         - Needs location constraint ap-south-1.
     - "ap-east-1"
-        - Asia Patific (Hong Kong) Region
+        - Asia Pacific (Hong Kong) Region
         - Needs location constraint ap-east-1.
     - "sa-east-1"
         - South America (Sao Paulo) Region
@@ -26066,7 +26066,7 @@ all the docs and Edward Barker for helping re-write the front page.
 * S3
     * Re-implement multipart upload to fix memory issues (Nick Craig-Wood)
     * Add `--s3-copy-cutoff` for size to switch to multipart copy (Nick Craig-Wood)
-    * Add new region Asia Patific (Hong Kong) (Outvi V)
+    * Add new region Asia Pacific (Hong Kong) (Outvi V)
     * Reduce memory usage streaming files by reducing max stream upload size (Nick Craig-Wood)
     * Add `--s3-list-chunk` option for bucket listing (Thomas Kriechbaumer)
     * Force path style bucket access to off for AWS deprecation (Nick Craig-Wood)
