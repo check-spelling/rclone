@@ -3257,7 +3257,7 @@ Here are the keys - press '?' to toggle the help on and off
      g toggle graph
      n,s,C sort by name,size,count
      d delete file/directory
-     y copy current path to clipbard
+     y copy current path to clipboard
      Y display current path
      ^L refresh screen
      ? to toggle help on and off
