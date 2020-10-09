@@ -625,7 +625,7 @@ func (c *Cache) clean(removeCleanFiles bool) {
 		c.purgeOverQuota(int64(c.opt.CacheMaxSize))
 
 		// removeCleanFiles indicates that we got ENOSPC error
-		// We remove cache files that are not dirty if we are still avove the max cache size
+		// We remove cache files that are not dirty if we are still above the max cache size
 		if removeCleanFiles {
 			c.purgeClean(int64(c.opt.CacheMaxSize))
 			c.retryFailedResets()
