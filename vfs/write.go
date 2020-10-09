@@ -97,7 +97,7 @@ func (fh *WriteFileHandle) String() string {
 	return fh.file.String() + " (w)"
 }
 
-// Node returns the Node assocuated with this - satisfies Noder interface
+// Node returns the Node associated with this - satisfies Noder interface
 func (fh *WriteFileHandle) Node() Node {
 	fh.mu.Lock()
 	defer fh.mu.Unlock()

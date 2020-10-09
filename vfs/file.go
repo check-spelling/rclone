@@ -135,7 +135,7 @@ func (f *File) Inode() uint64 {
 	return f.inode
 }
 
-// Node returns the Node assocuated with this - satisfies Noder interface
+// Node returns the Node associated with this - satisfies Noder interface
 func (f *File) Node() Node {
 	return f
 }

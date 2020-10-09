@@ -121,7 +121,7 @@ func (d *Dir) Inode() uint64 {
 	return d.inode
 }
 
-// Node returns the Node assocuated with this - satisfies Noder interface
+// Node returns the Node associated with this - satisfies Noder interface
 func (d *Dir) Node() Node {
 	return d
 }
