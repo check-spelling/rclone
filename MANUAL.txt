@@ -10362,7 +10362,7 @@ net/http.(_conn).serve 0 0% 100% 1024.03kB 66.62% runtime.main
     error.
 
     ‡‡ Note that while Box implements this it has to delete every file
-    idividually so it will be slower than emptying the trash via the WebUI
+    individually so it will be slower than emptying the trash via the WebUI
 
     ### ListR ###
 
