@@ -4363,7 +4363,7 @@ be used within the template to server pages:
                                       changeable via ?sort= parameter
 
                                       Sort Options:
-                                      namedirfist,name,size,time (default
+                                      namedirfirst,name,size,time (default
                                       namedirfirst)
 
   .Order                              The current ordering used. This is
@@ -4847,7 +4847,7 @@ be used within the template to server pages:
                                       changeable via ?sort= parameter
 
                                       Sort Options:
-                                      namedirfist,name,size,time (default
+                                      namedirfirst,name,size,time (default
                                       namedirfirst)
 
   .Order                              The current ordering used. This is
@@ -5410,7 +5410,7 @@ be used within the template to server pages:
                                       changeable via ?sort= parameter
 
                                       Sort Options:
-                                      namedirfist,name,size,time (default
+                                      namedirfirst,name,size,time (default
                                       namedirfirst)
 
   .Order                              The current ordering used. This is
