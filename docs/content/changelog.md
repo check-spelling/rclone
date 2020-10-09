@@ -63,7 +63,7 @@ description: "Rclone Changelog"
         * Add reverse proxy pluginsHandler for serving plugins (Chaitanya Bankanhal)
         * Add `mount/listmounts` option for listing current mounts (Chaitanya Bankanhal)
         * Add `operations/uploadfile` to upload a file through rc using encoding multipart/form-data (Chaitanya Bankanhal)
-        * Add `core/copmmand` to execute rclone terminal commands. (Chaitanya Bankanhal)
+        * Add `core/command` to execute rclone terminal commands. (Chaitanya Bankanhal)
     * `rclone check`
         * Add reporting of filenames for same/missing/changed (Nick Craig-Wood)
         * Make check command obey `--dry-run`/`-i`/`--interactive` (Nick Craig-Wood)
