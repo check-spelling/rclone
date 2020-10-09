@@ -336,7 +336,7 @@ func (c *Cache) Rename(name string, newName string, newObj fs.Object) (err error
 // Remove should be called if name is deleted
 //
 // This returns true if the file was in the transfer queue so may not
-// have completedly uploaded yet.
+// have completely uploaded yet.
 func (c *Cache) Remove(name string) (wasWriting bool) {
 	name = clean(name)
 	c.mu.Lock()

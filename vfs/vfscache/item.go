@@ -841,7 +841,7 @@ func (item *Item) _removeMeta(reason string) {
 // remove the cached file and empty the metadata
 //
 // This returns true if the file was in the transfer queue so may not
-// have completedly uploaded yet.
+// have completely uploaded yet.
 //
 // call with lock held
 func (item *Item) _remove(reason string) (wasWriting bool) {
@@ -859,7 +859,7 @@ func (item *Item) _remove(reason string) (wasWriting bool) {
 // remove the cached file and empty the metadata
 //
 // This returns true if the file was in the transfer queue so may not
-// have completedly uploaded yet.
+// have completely uploaded yet.
 func (item *Item) remove(reason string) (wasWriting bool) {
 	item.mu.Lock()
 	defer item.mu.Unlock()
