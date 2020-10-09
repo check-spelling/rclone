@@ -561,7 +561,7 @@ func (dl *downloader) close(inErr error) (err error) {
 	return nil
 }
 
-// closed returns true if the downloader has been closed alread
+// closed returns true if the downloader has been closed already
 func (dl *downloader) closed() bool {
 	dl.mu.Lock()
 	defer dl.mu.Unlock()
