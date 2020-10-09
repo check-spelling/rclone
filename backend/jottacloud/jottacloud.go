@@ -1512,7 +1512,7 @@ func (o *Object) Update(ctx context.Context, in io.Reader, src fs.ObjectInfo, op
 		return err
 	}
 
-	// If the file state is INCOMPLETE and CORRPUT, try to upload a then
+	// If the file state is INCOMPLETE and CORRUPT, try to upload a then
 	if response.State != "COMPLETED" {
 		// how much do we still have to upload?
 		remainingBytes := size - response.ResumePos
