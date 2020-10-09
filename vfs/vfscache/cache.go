@@ -56,7 +56,7 @@ type Cache struct {
 	used          int64            // total size of files in the cache
 	outOfSpace    bool             // out of space
 	cleanerKicked bool             // some thread kicked the cleaner upon out of space
-	kickerMu      sync.Mutex       // mutex for clearnerKicked
+	kickerMu      sync.Mutex       // mutex for cleanerKicked
 	kick          chan struct{}    // channel for kicking clear to start
 
 }
