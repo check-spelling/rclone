@@ -386,7 +386,7 @@ type Error struct {
 	Cause      string `xml:"cause"`
 }
 
-// Error returns a string for the error and statistifes the error interface
+// Error returns a string for the error and satisfies the error interface
 func (e *Error) Error() string {
 	out := fmt.Sprintf("error %d", e.StatusCode)
 	if e.Message != "" {
