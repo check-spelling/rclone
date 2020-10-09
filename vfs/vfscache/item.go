@@ -647,7 +647,7 @@ func (item *Item) Close(storeFn StoreFn) (err error) {
 	// If the file is dirty ensure any segments not transferred
 	// are brought in first.
 	//
-	// FIXME It would be nice to do this asynchronously howeve it
+	// FIXME It would be nice to do this asynchronously however it
 	// would require keeping the downloaders alive after the item
 	// has been closed
 	if item.info.Dirty && item.o != nil {
