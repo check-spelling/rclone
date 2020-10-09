@@ -25741,7 +25741,7 @@ v1.49.0 - 2019-08-26
     -   rcd: Fix permissions problems on cache directory with web gui
         download (Nick Craig-Wood)
 -   Mount
-    -   Default --deamon-timout to 15 minutes on macOS and FreeBSD (Nick
+    -   Default --daemon-timout to 15 minutes on macOS and FreeBSD (Nick
         Craig-Wood)
     -   Update docs to show mounting from root OK for bucket based (Nick
         Craig-Wood)
