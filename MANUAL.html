@@ -241,7 +241,7 @@ go build
 <pre><code>go get github.com/rclone/rclone</code></pre>
 <p>or the latest version (equivalent to the beta) with</p>
 <pre><code>go get github.com/rclone/rclone@master</code></pre>
-<p>These will build the binary in <code>$(go env GOPATH)/bin</code> (<code>~/go/bin/rclone</code> by default) after downloading the source to the go module cache. Note - do <strong>not</strong> use the <code>-u</code> flag here. This causes go to try to update the depencencies that rclone uses and sometimes these don't work with the current version of rclone.</p>
+<p>These will build the binary in <code>$(go env GOPATH)/bin</code> (<code>~/go/bin/rclone</code> by default) after downloading the source to the go module cache. Note - do <strong>not</strong> use the <code>-u</code> flag here. This causes go to try to update the dependencies that rclone uses and sometimes these don't work with the current version of rclone.</p>
 <h2 id="installation-with-ansible">Installation with Ansible</h2>
 <p>This can be done with <a href="https://github.com/stefangweichinger/ansible-rclone">Stefan Weichinger's ansible role</a>.</p>
 <p>Instructions</p>
