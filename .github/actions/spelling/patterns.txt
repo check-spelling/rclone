@@ -13,6 +13,8 @@ Base64 = "[a-zA-Z=;,/0-9+-]+"
 oc:checksum>.*</oc:checksum
 # ??
 ^\s+[0-9][0-9] \S*$
+# githubusercontent
+/[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
 # gist github
 /gist\.github\.com/[^/]+/[0-9a-f]+
 # hex digits including css/html color classes:
