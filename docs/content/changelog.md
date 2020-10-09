@@ -1093,7 +1093,7 @@ all the docs and Edward Barker for helping re-write the front page.
     * Add client side TLS/SSL flags `--ca-cert`/`--client-cert`/`--client-key` (Nick Craig-Wood)
     * Implement `--suffix-keep-extension` for use with `--suffix` (Nick Craig-Wood)
     * build:
-        * Switch to semvar compliant version tags to be go modules compliant (Nick Craig-Wood)
+        * Switch to semver compliant version tags to be go modules compliant (Nick Craig-Wood)
         * Update to use go1.12.x for the build (Nick Craig-Wood)
     * serve dlna: Add connection manager service description to improve compatibility (Dan Walters)
     * lsf: Add 'e' format to show encrypted names and 'o' for original IDs (Nick Craig-Wood)
