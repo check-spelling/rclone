@@ -606,7 +606,7 @@ func (f *File) Fs() fs.Fs {
 //   O_CREATE create a new file if none exists.
 //   O_EXCL   used with O_CREATE, file must not exist
 //   O_SYNC   open for synchronous I/O.
-//   O_TRUNC  if possible, truncate file when opene
+//   O_TRUNC  if possible, truncate file when opened
 //
 // We ignore O_SYNC and O_EXCL
 func (f *File) Open(flags int) (fd Handle, err error) {
