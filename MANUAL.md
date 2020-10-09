@@ -13248,7 +13248,7 @@ Choose a number from below, or type in your own value
 	secret_access_key> <>
 ```
 
-6. Specify the endpoint for IBM COS. For Public IBM COS, choose from the option below. For On Premise IBM COS, enter an enpoint address.
+6. Specify the endpoint for IBM COS. For Public IBM COS, choose from the option below. For On Premise IBM COS, enter an endpoint address.
 ```
 	Endpoint for IBM COS S3 API.
 	Specify if using an IBM COS On Premise.

@@ -13057,7 +13057,7 @@ Choose this option to the configure Storage to Minio  "Minio" Provider>4
     secret_access_key> <>
 
 
-    6. Specify the endpoint for IBM COS. For Public IBM COS, choose from the option below. For On Premise IBM COS, enter an enpoint address.
+    6. Specify the endpoint for IBM COS. For Public IBM COS, choose from the option below. For On Premise IBM COS, enter an endpoint address.
 
     Endpoint for IBM COS S3 API.
     Specify if using an IBM COS On Premise.
